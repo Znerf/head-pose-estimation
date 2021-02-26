@@ -165,8 +165,7 @@ def main():
                 marks[:, 1] += facebox[1]
 
                 # Uncomment following line to show raw marks.
-                mark_detector.draw_marks(
-                    frame, marks, color=(0, 255, 0))
+                # mark_detecamarks, color=(0, 255, 0))
 
                 # Uncomment following line to show facebox.
                 # mark_detector.draw_box(frame, [facebox])
